@@ -28,7 +28,9 @@ radii = diameters/2;
 hold on
 viscircles(centers,radii);
 hold off
+%% penghitungan nilai awal koin
 total=0;
+%% looping pelabelan koin
 iter = size(stats.Area);
 for n = 1:iter
     % jika ukuran kecil tidak ditampilkan karena akan mengganggu proses
